@@ -57,7 +57,8 @@ header h1:hover{
 
 .menu a:hover{
 
-    
+    transition: 0.3s ease;
+    color: rgb(197, 79, 0);
 
 }
 
