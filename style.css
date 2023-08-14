@@ -27,7 +27,8 @@ header{
 header h1{
 
     position: absolute;
-    left:20px;
+    top:20px;
+    left: 280px;
     color: white;
 
 }
@@ -63,21 +64,28 @@ header h1{
 .sub-menu{
 
     position: absolute;
-    display: flex;
+    display: none;
     flex-direction: column;
-    top: 200px;
-    background-color: red;
-    padding: 6px;
-    width: 100px;
-    height: 100px;
+    top: 60px;
+    left: 739px;
+    background-color: rgb(65, 65, 65);
+    width: 180px;
+    height: 168px;
+
 }
 
 
 .sub-menu a{
 
     text-align: center;
-    align-items: center;
-    color: rgb(197, 250, 111);
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.sub-menu a:hover{
+
+    background-color: rgb(103, 103, 103);
 
 }
 
@@ -85,5 +93,17 @@ header h1{
 .show-menu{ /* Conectado com JavaScript */
 
     display: flex;
+
+}
+
+
+@keyframes rotate {
+
+
+    from {
+
+        transform: rotate(100deg);
+
+    }
 
 }
