@@ -12,7 +12,7 @@ document.addEventListener("click", (event) => {
 
     const targetElement = event.target;
 
-    if (!dropdown.contains(targetElement)  && !subMenu.contains(targetElement)){
+    if (!dropdown.contains(targetElement) && !subMenu.contains(targetElement)){
 
         dropdown.classList.remove("open");
         subMenu.classList.remove("show-menu");

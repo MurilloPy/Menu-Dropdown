@@ -111,6 +111,12 @@ header h1:hover{
 
 }
 
+.menu-responsive{ /* Conectado com JavaScript */
+
+    left: 0;
+
+}
+
 
 @keyframes rotate {
 
